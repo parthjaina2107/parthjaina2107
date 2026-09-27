@@ -15,7 +15,7 @@ Currently exploring Computer Vision, Deep Learning, and intelligent systems — 
 
 | Languages | Tools & Platforms |
 | :--- | :--- |
-| Python · C++ · C · Java · JavaScript | Git · GitHub · VS Code · Linux |
+| Python · C++ · C · Java · JavaScript | Git · GitHub · VS Code |
 
 ---
 
