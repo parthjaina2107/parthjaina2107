@@ -11,9 +11,7 @@ Currently exploring Computer Vision, Deep Learning, and intelligent systems — 
 
 ---
 
-### Tech Stack
-
-| Languages | Tools & Platforms |
+ Languages | Tools & Platforms |
 | :--- | :--- |
 | Python · C++ · C · Java · JavaScript | Git · GitHub · VS Code |
 
