@@ -26,23 +26,7 @@ Currently exploring Computer Vision, Deep Learning, and intelligent systems — 
 
 ---
 
-### GitHub Stats
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ParthJaina&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ParthJaina&show_icons=true&hide_border=true&bg_color=00000000" />
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ParthJaina&show_icons=true&hide_border=true&bg_color=00000000" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthJaina&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthJaina&layout=compact&hide_border=true&bg_color=00000000" />
-    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthJaina&layout=compact&hide_border=true&bg_color=00000000" />
-  </picture>
-</p>
-
----
 
 ### Connect
 
