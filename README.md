@@ -26,7 +26,7 @@ Currently exploring Computer Vision, Edge AI, Deep Learning, and intelligent aut
 
 | Project | What it does | Built with |
 | :--- | :--- | :--- |
-| [**ZENO**](https://github.com/parthjaina2107/ZENO) | Secure voice automation & remote mobile control system with multimodal screen vision, persistent memory, and 3-tier risk permission gating | Python · Gemini API · FastAPI · WebSockets · Whisper |
+| [**ZENO**](https://github.com/parthjaina2107/ZENO) | Context-aware desktop voice assistant with verified task execution, concise spoken feedback, screen understanding, persistent memory, and secure mobile control | Python · Gemini API · FastAPI · WebSockets · SpeechRecognition · pywinauto |
 | [**SignSpeak ASL**](https://github.com/parthjaina2107/signspeak-asl) | Real-time American Sign Language recognition in the browser using 3D skeletal landmark tracking & joint-angle kinematics | JavaScript · MediaPipe · WebAssembly · Computer Vision |
 | [**Vigilance**](https://github.com/parthjaina2107/Vigilance-SIH2) | AI-powered mobile urban road intelligence platform using INT8 edge AI, 15m DBSCAN spatial deduplication, and WebGIS command center | Python · YOLOv8 · ONNX · FastAPI · Next.js |
 
@@ -36,10 +36,15 @@ Currently exploring Computer Vision, Edge AI, Deep Learning, and intelligent aut
 <summary><b>🔍 Project Deep Dives</b></summary>
 <br/>
 
-#### 🎙️ [ZENO](https://github.com/parthjaina2107/ZENO) — Secure Voice Automation & Remote Mobile Control
-- **Dual-Mode Operation:** Hands-free local microphone listener (Whisper / SpeechRecognition) and real-time remote smartphone web app via WebSockets with secure HTTPS tunneling.
-- **Cognitive Brain & Multimodal Vision:** Visual screen comprehension powered by Google Gemini 2.5 Flash, multi-turn conversational context, and atomic persistent memory.
-- **Defense-in-Depth Safety:** Cryptographic action ID binding, strict 3-tier risk permission hierarchy (Low / Medium / High), safe recycling with `send2trash`, and comprehensive audit logging.
+#### 🎙️ [ZENO](https://github.com/parthjaina2107/ZENO) — Context-Aware Desktop Voice Assistant
+
+- **Natural Conversation & Context:** Gemini-powered reasoning interprets complete requests, resolves follow-ups using recent conversation and observed execution results, and asks for missing details. Simple literal commands use a fast local parser.
+- **Goal-Based Task Execution:** A bounded observe–act–verify loop plans multi-step work through supported system and file tools, checks outcomes, stops failed or repeated actions, preserves existing output files, and saves task reports.
+- **Verified Notepad Typing:** Windows UI Automation waits for the editor, focuses the intended document, appends Unicode text, and reads it back before reporting success.
+- **Concise Voice & Screen Understanding:** One brief spoken outcome per request keeps execution logs in the console. Multimodal screen analysis answers the user's question without routinely reading terminal output aloud; personal facts persist across sessions.
+- **Local & Remote Control:** Local microphone input with SpeechRecognition and optional Whisper, a console text mode, and a mobile web interface through FastAPI and WebSockets. Device pairing, JWT authentication, revocation, action-bound approvals, and audit logs support secure remote access.
+- **Focused Permission Policy:** Routine actions execute immediately; file deletion and system shutdown/restart require confirmation. File deletion uses `send2trash` for recoverability.
+- **Verification Coverage:** 111 automated tests cover the current implementation, with optional live checks for Gemini reasoning, contextual follow-ups, and task execution. The task engine operates through implemented tools rather than unrestricted GUI control.
 
 #### 🤟 [SignSpeak ASL](https://github.com/parthjaina2107/signspeak-asl) — Real-Time ASL to English Translator
 - **In-Browser Machine Learning:** Zero-latency on-device inference using MediaPipe Hand and Face Landmarkers running on WebAssembly without backend streaming.
