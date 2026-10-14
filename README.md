@@ -40,7 +40,6 @@ Currently exploring Computer Vision, Edge AI, Deep Learning, and intelligent aut
 
 - **Natural Conversation & Context:** Gemini-powered reasoning interprets complete requests, resolves follow-ups using recent conversation and observed execution results, and asks for missing details. Simple literal commands use a fast local parser.
 - **Goal-Based Task Execution:** A bounded observe–act–verify loop plans multi-step work through supported system and file tools, checks outcomes, stops failed or repeated actions, preserves existing output files, and saves task reports.
-- **Verified Notepad Typing:** Windows UI Automation waits for the editor, focuses the intended document, appends Unicode text, and reads it back before reporting success.
 - **Concise Voice & Screen Understanding:** One brief spoken outcome per request keeps execution logs in the console. Multimodal screen analysis answers the user's question without routinely reading terminal output aloud; personal facts persist across sessions.
 - **Local & Remote Control:** Local microphone input with SpeechRecognition and optional Whisper, a console text mode, and a mobile web interface through FastAPI and WebSockets. Device pairing, JWT authentication, revocation, action-bound approvals, and audit logs support secure remote access.
 - **Focused Permission Policy:** Routine actions execute immediately; file deletion and system shutdown/restart require confirmation. File deletion uses `send2trash` for recoverability.
