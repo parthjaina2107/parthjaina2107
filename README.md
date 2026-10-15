@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cosmic-banner.png" width="100%" alt="Iridescent amber, cyan and violet light flowing through a dark starfield" />
+  <img src="assets/holographic-banner.png" width="100%" alt="Prismatic light shimmering across dark, glassy liquid ripples" />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ## Hey there, I'm Parth 👋
 
-<img align="right" src="assets/orbit.svg" width="22%" alt="A glowing ringed planet in amber, cyan and violet" />
+<img align="right" src="assets/holographic-orbit.svg" width="22%" alt="Delicate holographic light ripples with cyan, violet and rainbow glints" />
 
 **AI/ML student · Building intelligent systems**
 

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-label="Holographic light ripples">
+<defs>
+<linearGradient id="prism"><stop stop-color="#4285ff"/><stop offset=".22" stop-color="#48efff"/><stop offset=".43" stop-color="#9965ff"/><stop offset=".62" stop-color="#f25bdf"/><stop offset=".8" stop-color="#ffc76a"/><stop offset="1" stop-color="#56f4bc"/></linearGradient>
+<radialGradient id="haze"><stop stop-color="#7360ff" stop-opacity=".18"/><stop offset="1" stop-color="#7360ff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+<g id="waves" fill="none" stroke="url(#prism)"><ellipse cx="180" cy="178" rx="132" ry="40"/><ellipse cx="180" cy="178" rx="118" ry="34"/><ellipse cx="180" cy="178" rx="101" ry="27"/><path d="M49 175 C112 95 240 267 310 173 M56 199 C129 126 244 237 305 158 M64 213 C133 174 207 126 294 146"/></g>
+<g id="spark"><path d="M0-6V6M-6 0H6" stroke="currentColor" stroke-width="1.4"/><circle r="1.8" fill="#fff"/></g>
+</defs>
+<circle cx="180" cy="180" r="160" fill="url(#haze)"/>
+<g transform="rotate(-28 180 180)"><use href="#waves" stroke-width="4" opacity=".5" filter="url(#glow)"/><use href="#waves" stroke-width="1.3" opacity=".85"/></g>
+<g color="#4ce7ff"><use href="#spark" x="85" y="217"/><circle cx="57" cy="154" r="1.6" fill="currentColor"/><circle cx="220" cy="98" r="2" fill="currentColor"/></g>
+<g color="#ed70f9"><use href="#spark" x="262" y="127"/><circle cx="281" cy="224" r="1.8" fill="currentColor"/><circle cx="125" cy="101" r="1.3" fill="currentColor"/></g>
+<g color="#ffc76a"><use href="#spark" x="182" y="187"/><circle cx="133" cy="250" r="2" fill="currentColor"/></g>
+<g fill="#64efbc"><circle cx="99" cy="176" r="1.8"/><circle cx="237" cy="252" r="1.4"/><circle cx="291" cy="170" r="1.2"/></g>
+</svg>
