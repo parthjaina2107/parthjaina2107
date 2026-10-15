@@ -1,67 +1,103 @@
-# Parth Jaina
+<p align="center">
+  <img src="assets/cosmic-banner.png" width="100%" alt="Iridescent amber, cyan and violet light flowing through a dark starfield" />
+</p>
 
-**AI Student · Building intelligent systems & learning something new every day**
+<p align="center">
+  <a href="https://www.linkedin.com/in/parthjaina/"><img src="assets/linkedin.svg" alt="LinkedIn" height="30" /></a>
+  <a href="mailto:parthjaina.2107@gmail.com"><img src="assets/email.svg" alt="Email Parth" height="30" /></a>
+  <a href="https://github.com/parthjaina2107?tab=repositories"><img src="assets/projects.svg" alt="Explore my repositories" height="30" /></a>
+</p>
 
----
+## Hey there, I'm Parth 👋
 
-### About
+<img align="right" src="assets/orbit.svg" width="180" alt="A glowing ringed planet in amber, cyan and violet" />
 
-I'm an AI-focused student passionate about applying technology to solve real-world problems.  
-Currently exploring Computer Vision, Edge AI, Deep Learning, and intelligent automation — one project at a time.
+**AI/ML student · Building intelligent systems**
 
----
+I'm interested in turning AI ideas into useful things — from voice assistants that understand context to computer vision that runs on the edge.
 
-### Tech & Tools
+Currently building **[ZENO](https://github.com/parthjaina2107/ZENO)**, exploring **computer vision, deep learning, and intelligent automation**, and sharpening my **DSA and software engineering** skills along the way.
 
-| Domain | Technologies |
+I learn by building, experimenting, and improving one project at a time.
+
+<br clear="both" />
+
+<img src="assets/spectrum.svg" width="100%" height="4" alt="" />
+
+### In my orbit
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🎙️ [ZENO](https://github.com/parthjaina2107/ZENO)
+Context-aware voice and work assistant with proactive briefings, local speech recognition, and secure mobile control.
+
+<sub>Python · Gemini API · FastAPI · faster-whisper</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🤟 [SignSpeak ASL](https://github.com/parthjaina2107/signspeak-asl)
+Real-time ASL recognition in the browser, using hand landmarks, joint-angle kinematics, and on-device processing.
+
+<sub>JavaScript · MediaPipe · WebAssembly</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛡️ [Vigilance](https://github.com/parthjaina2107/Vigilance-SIH2)
+Urban road intelligence using transit fleet cameras, edge AI, spatial deduplication, and a WebGIS command center.
+
+<sub>Python · YOLOv8 · ONNX · FastAPI · Next.js</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚡ [FlowPilot](https://github.com/parthjaina2107/FlowPilot)
+Learn-once, replay-anywhere voice automation for Android, built for the Samsung PRISM GenAI Hackathon 3.0.
+
+<sub>Kotlin · Python · Android · Voice automation</sub>
+
+</td>
+</tr>
+</table>
+
+### My toolkit
+
+| | Technologies |
 | :--- | :--- |
 | **Languages** | Python · C++ · C · Java · JavaScript · SQL |
-| **AI / ML & Vision** | PyTorch · OpenCV · MediaPipe · YOLOv8 · Google Gemini API · Scikit-Learn |
-| **Backend & Web** | FastAPI · WebSockets · Next.js · REST APIs |
-| **Tools & Platforms** | Git · GitHub · Linux · Docker · VS Code |
-
----
-
-### Projects
-
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| [**ZENO**](https://github.com/parthjaina2107/ZENO) | Context-aware voice assistant with proactive work/system briefings, notification tracking, read-only inbox integrations, local speech recognition, and secure mobile control | Python · Gemini API · FastAPI · faster-whisper · SQLite · Windows UI Automation |
-| [**SignSpeak ASL**](https://github.com/parthjaina2107/signspeak-asl) | Real-time American Sign Language recognition in the browser using 3D skeletal landmark tracking & joint-angle kinematics | JavaScript · MediaPipe · WebAssembly · Computer Vision |
-| [**Vigilance**](https://github.com/parthjaina2107/Vigilance-SIH2) | AI-powered mobile urban road intelligence platform using INT8 edge AI, 15m DBSCAN spatial deduplication, and WebGIS command center | Python · YOLOv8 · ONNX · FastAPI · Next.js |
-
----
+| **AI & vision** | PyTorch · OpenCV · MediaPipe · YOLOv8 · Scikit-learn · Gemini API |
+| **Backend & web** | FastAPI · WebSockets · Next.js · REST APIs |
+| **Tools** | Git · GitHub · Linux · Docker · VS Code |
 
 <details>
-<summary><b>🔍 Project Deep Dives</b></summary>
-<br/>
+<summary><b>A closer look at what I'm building</b></summary>
 
-#### 🎙️ [ZENO](https://github.com/parthjaina2107/ZENO) — Context-Aware Voice & Work Assistant
+#### ZENO — voice, context, and everyday work
 
-- **Natural Conversation & Context:** Gemini-powered reasoning interprets complete requests, resolves follow-ups using recent conversation and observed execution results, and asks for missing details. Simple literal commands use a fast local parser.
-- **Goal-Based Task Execution:** A bounded observe–act–verify loop plans multi-step work through supported system and file tools, checks outcomes, stops failed or repeated actions, preserves existing output files, and saves task reports.
-- **Proactive Work & System Awareness:** While running, ZENO groups Windows notifications, Git project changes, process exits, system-health alerts, and persistent reminders into brief updates. Focus mode and configurable quiet hours control interruptions.
-- **Read-Only Inbox Integrations:** Gmail OAuth and Outlook device-code adapters collect sender, subject, and time metadata without sending, deleting, or marking mail read. Each account needs its own setup; WhatsApp, Telegram, and Discord coverage comes from available Windows notifications, not full chat history. OAuth tokens are encrypted for the Windows user.
-- **On-Demand AI Briefings:** Commands such as “Brief me,” “Check my emails,” and “Show my reminders” surface accessible updates. Explicit AI-summary requests send collected previews to Gemini; notification text is kept out of the action planner.
-- **Calmer Voice & Local Listening:** CPU/int8 faster-whisper recognition with voice-activity filtering, a soft female neural voice, and local Windows speech fallback. Online speech services and recognition fallback are configurable; routine responses stay concise instead of reading execution logs aloud. Screen understanding and persistent personal memory remain available.
-- **Local & Remote Control:** Microphone input, console text mode, and a mobile web interface through FastAPI and WebSockets. Device pairing, JWT authentication, revocation, action-bound approvals, and audit logs support secure remote access. Setup diagnostics, speech-model installation, and voice-preview commands help troubleshoot configuration.
-- **Focused Permission Policy:** Routine actions execute immediately; file deletion and system shutdown/restart require confirmation. File deletion uses `send2trash` for recoverability.
-- **Verification & Boundaries:** Automated tests cover reasoning, task execution, awareness isolation, inbox adapters, reminders, speech fallbacks, and account-connection recovery. The task engine operates through implemented tools rather than unrestricted GUI control. Monitoring stops when ZENO closes; inbox and notification access are reported honestly when unavailable.
+Gemini-powered conversation and a bounded observe–act–verify loop for supported system and file tasks. Work and system briefings bring together notifications, Git changes, reminders, and system health. Local speech recognition, paired devices, and action approvals support desktop and mobile use. Optional inbox connections provide read-only previews.
 
-#### 🤟 [SignSpeak ASL](https://github.com/parthjaina2107/signspeak-asl) — Real-Time ASL to English Translator
-- **In-Browser Machine Learning:** Zero-latency on-device inference using MediaPipe Hand and Face Landmarkers running on WebAssembly without backend streaming.
-- **Biomechanical Kinematics:** Joint angle calculations (PIP, MCP, Thumb) and 20-frame buffered EMA smoothing for rotation- and distance-invariant recognition.
-- **Smart Disambiguation:** Custom heuristic rules and spatial trajectory tracking for occluded and motion-based gestures (e.g., A/S/E/T and J/Z).
+#### SignSpeak ASL — vision in the browser
 
-#### 🛡️ [Vigilance](https://github.com/parthjaina2107/Vigilance-SIH2) — AI-Powered Mobile Urban Intelligence Platform
-- **Edge Perception:** INT8-quantized YOLOv8-Nano model running on transit fleet cameras at ~23 FPS with ~110 MB RAM footprint.
-- **Spatial Deduplication:** 15m DBSCAN clustering uniting multi-pass road distress detections into consolidated master incidents.
-- **Prioritization & WebGIS:** Automated Repair Prioritization Index (RPI) calculation combining distress severity, POI proximity, and road traffic hierarchy, fed live to a Next.js WebGIS command center.
+MediaPipe landmarks and WebAssembly support on-device gesture recognition. Joint angles, temporal smoothing, and motion tracking help distinguish similar hand shapes and moving gestures.
+
+#### Vigilance — computer vision on the edge
+
+Quantized YOLOv8 detects road distress from transit fleet cameras. Spatial clustering consolidates repeated detections, while repair prioritization and a Next.js WebGIS interface help organize incidents.
 
 </details>
 
----
+<br />
 
-### Connect
+<img src="assets/spectrum.svg" width="100%" height="4" alt="" />
 
-[LinkedIn](https://www.linkedin.com/in/parthjaina/) · [Email](mailto:parthjaina.2107@gmail.com) · [GitHub](https://github.com/parthjaina2107)
+<p align="center">
+  <sub>Always learning. Always building. One idea at a time.</sub><br />
+  <a href="https://www.linkedin.com/in/parthjaina/">LinkedIn</a> ·
+  <a href="mailto:parthjaina.2107@gmail.com">Let's connect</a> ·
+  <a href="https://github.com/parthjaina2107?tab=repositories">Explore my work ↗</a>
+</p>

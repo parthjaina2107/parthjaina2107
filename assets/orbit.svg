@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-label="Glowing ringed planet">
+<defs>
+<linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffcf70"/><stop offset=".3" stop-color="#ed857f"/><stop offset=".65" stop-color="#a48be6"/><stop offset="1" stop-color="#263b6d"/></linearGradient>
+<linearGradient id="ring"><stop stop-color="#ffbe63"/><stop offset=".35" stop-color="#fd826b"/><stop offset=".65" stop-color="#bc8cff"/><stop offset="1" stop-color="#6ae7f5"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#a48be6" stop-opacity=".15"/><stop offset="1" stop-color="#a48be6" stop-opacity="0"/></radialGradient>
+<clipPath id="sphere"><circle cx="180" cy="180" r="64"/></clipPath>
+</defs>
+<circle cx="180" cy="180" r="148" fill="url(#aura)"/>
+<g fill="#adc7de"><circle cx="56" cy="75" r="1.4"/><circle cx="293" cy="109" r="1.6"/><circle cx="91" cy="271" r="1"/><circle cx="265" cy="285" r="1.2"/></g>
+<g transform="rotate(35 180 180)">
+<ellipse cx="180" cy="180" rx="128" ry="35" fill="none" stroke="url(#ring)" stroke-width="7"/>
+<circle cx="180" cy="180" r="64" fill="url(#planet)"/>
+<g clip-path="url(#sphere)" fill="none" stroke="#ffe0b2" opacity=".2"><path d="M100 145 Q180 180 260 145" stroke-width="8"/><path d="M100 171 Q180 206 260 171" stroke-width="4"/><path d="M100 199 Q180 234 260 199" stroke-width="10"/></g>
+<path d="M52 180 A128 35 0 0 0 308 180" fill="none" stroke="url(#ring)" stroke-width="7"/>
+<path d="M52 180 A128 35 0 0 0 308 180" fill="none" stroke="#ffe9bd" stroke-opacity=".65" stroke-width="1.5"/>
+</g>
+<path d="M280 60v14m-7-7h14" stroke="#7bdce8" stroke-width="1.5"/>
+</svg>
