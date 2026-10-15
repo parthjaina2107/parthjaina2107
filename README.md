@@ -10,7 +10,7 @@
 
 ## Hey there, I'm Parth 👋
 
-<img align="right" src="assets/orbit.svg" width="180" alt="A glowing ringed planet in amber, cyan and violet" />
+<img align="right" src="assets/orbit.svg" width="22%" alt="A glowing ringed planet in amber, cyan and violet" />
 
 **AI/ML student · Building intelligent systems**
 
