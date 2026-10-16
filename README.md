@@ -14,11 +14,11 @@
 
 **AI/ML student · Building intelligent systems**
 
-I'm interested in turning AI ideas into useful things — from voice assistants that understand context to computer vision that runs on the edge.
+I'm an AI/ML student who enjoys solving problems and turning ideas into working software. My interests span artificial intelligence, computer vision, voice automation, and full-stack development.
 
-Currently building **[ZENO](https://github.com/parthjaina2107/ZENO)**, exploring **computer vision, deep learning, and intelligent automation**, and sharpening my **DSA and software engineering** skills along the way.
+I build across the stack — from models and backend APIs to web interfaces and automation tools — with a focus on making technology useful in everyday life. Alongside my projects, I practice DSA and strengthen my foundations in artificial intelligence and machine learning.
 
-I learn by building, experimenting, and improving one project at a time.
+I learn best by experimenting, asking questions, and refining what I build.
 
 <br clear="both" />
 
