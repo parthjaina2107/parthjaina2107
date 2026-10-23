@@ -8,7 +8,7 @@
   <a href="https://github.com/parthjaina2107?tab=repositories"><img src="assets/projects.svg" alt="Explore my repositories" height="30" /></a>
 </p>
 
-## Hey there, I'm Parth 👋
+## Hey, I'm Parth 
 
 <img align="right" src="assets/holographic-orbit.svg" width="22%" alt="Delicate holographic light ripples with cyan, violet and rainbow glints" />
 
