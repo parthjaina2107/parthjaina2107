@@ -1,0 +1,2 @@
+# Keep upstream library source verbatim, including its whitespace conventions.
+dist/vendor/** linguist-vendored -whitespace

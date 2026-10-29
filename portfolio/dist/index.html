@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta
+      name="description"
+      content="Parth — B.Tech Artificial Intelligence student at SRM Institute of Science and Technology. Exploring voice, computer vision, and full-stack software. Open to internships."
+    />
+    <title>Parth — Curiosity into useful systems</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;450;500;550;600;650;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="editorial.css?v=5" />
+    <link rel="stylesheet" href="component-motion.css?v=5" />
+    <script type="importmap">
+      { "imports": { "three": "./vendor/three.module.js" } }
+    </script>
+    <script src="portfolio.js?v=5" defer></script>
+    <script src="component-motion.js?v=5" defer></script>
+    <script type="module" src="sculpture.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <header class="site-header shell">
+      <a href="#home" class="wordmark" aria-label="Parth home"
+        >Parth<span class="red">.</span>
+        <span class="wordmark-note">A work in progress.</span></a
+      ><button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Open navigation"
+      >
+        <img src="assets/icons/list.svg" alt="" width="24" height="24" />
+      </button>
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a
+        ><a href="#toolkit">Toolkit</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="main" class="shell">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="hero-name">PARTH</h1>
+        <p class="hero-margin-note micro">
+          Ideas.<br />Models.<br />Interfaces.<br />For a more<br />useful
+          tomorrow.
+        </p>
+        <div
+          class="sculpture-stage"
+          id="sculpture-stage"
+          role="img"
+          aria-label="Interactive polished chrome knot responding to your pointer"
+        >
+          <img
+            id="sculpture-fallback"
+            class="sculpture-fallback"
+            src="assets/chrome-knot.png"
+            alt=""
+            width="1280"
+            height="1280"
+            fetchpriority="high"
+          /><canvas id="sculpture-canvas" aria-hidden="true"></canvas>
+        </div>
+        <div class="hero-intro">
+          <h2>AI / ML student.<br />Builder of <em>useful systems.</em></h2>
+          <p>
+            I build across voice, computer vision, and the web—<br
+              class="wide-only"
+            />connecting models, APIs, and interfaces to solve everyday
+            problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="button-primary"
+              >Explore my work
+              <img src="assets/icons/arrow-right.svg" alt="" /></a
+            ><a href="#contact" class="text-link"
+              >Get in touch <img src="assets/icons/arrow-right.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="hero-base">
+          <span class="opportunity micro"
+            ><span class="status-dot"></span> Open to internships</span
+          >
+          <div class="hero-controls">
+            <button
+              id="motion-toggle"
+              class="motion-toggle"
+              aria-pressed="false"
+              aria-label="Pause animations"
+            >
+              <img src="assets/icons/pause.svg" alt="" /><span
+                >Pause motion</span
+              ></button
+            ><a class="scroll-hint micro" href="#about"
+              ><img src="assets/icons/arrow-down.svg" alt="" /> Scroll<br />to
+              explore</a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="about section-rule"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <p class="section-label"><span></span> 01 / ABOUT</p>
+        <div class="about-layout">
+          <h2 id="about-title" class="statement reveal">
+            Curiosity is the<br />starting point.<br /><em class="ink"
+              >Building</em
+            >
+            <em>is how<br />I learn.</em>
+          </h2>
+          <div class="about-copy reveal">
+            <p>
+              I’m an Artificial Intelligence student at
+              <strong>SRM Institute of Science and Technology</strong>. I learn
+              by experimenting, asking questions, and refining what I build.
+            </p>
+            <p>
+              Alongside my projects, I practice data structures and algorithms
+              and strengthen my foundations in AI and machine learning.
+            </p>
+            <p>
+              I enjoy learning new things and meeting people to understand their
+              interests, how they think, and the ideas they’re exploring. A good
+              conversation often gives me a new question to work on.
+            </p>
+            <p class="micro about-signoff">
+              Same curiosity.<br />Deeper questions.<br />Better systems.
+            </p>
+          </div>
+        </div>
+        <div class="education-row reveal">
+          <span class="micro">THE JOURNEY</span
+          ><span class="education-year">2025 — 2029</span>
+          <div>
+            <h3>B.Tech · Artificial Intelligence</h3>
+            <p>SRM Institute of Science and Technology</p>
+          </div>
+          <span class="micro studying">Currently studying</span>
+        </div>
+      </section>
+      <section class="work section-rule" id="work" aria-labelledby="work-title">
+        <div class="section-top">
+          <h2 id="work-title" class="section-label">
+            <span></span> 02 / SELECTED WORK
+          </h2>
+          <p class="micro">From a question to a working system.</p>
+        </div>
+        <article class="project-feature reveal">
+          <div class="project-info">
+            <span class="project-index micro">01</span>
+            <h3 class="project-name">ZENO</h3>
+            <p class="project-tagline">Voice, context, and everyday work.</p>
+            <p class="project-summary">
+              Local speech recognition, proactive briefings, and mobile control.
+            </p>
+            <p class="stack">Python · FastAPI · Gemini API</p>
+            <button class="text-link" data-project="zeno">
+              Explore project <img src="assets/icons/arrow-right.svg" alt="" />
+            </button>
+          </div>
+          <div class="project-story">
+            <button
+              class="project-image"
+              data-project="zeno"
+              aria-label="Explore ZENO project"
+            >
+              <img
+                src="assets/zeno-voice.png"
+                alt="Abstract silver and red sound waves surrounding a translucent sphere"
+                width="1774"
+                height="887"
+                loading="lazy"
+              /><span class="image-caption micro">VOICE / CONTEXT / ACTION</span
+              ><span class="image-open"
+                ><img src="assets/icons/arrow-up-right.svg" alt=""
+              /></span>
+            </button>
+            <div class="project-notes">
+              <div>
+                <h4>The problem</h4>
+                <p>
+                  Work is spread across apps, files, and notifications. Useful
+                  context is easy to miss.
+                </p>
+              </div>
+              <div>
+                <h4>The approach</h4>
+                <p>
+                  Local speech recognition, contextual briefings, and a bounded
+                  observe–act–verify loop.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="project-feature reveal">
+          <div class="project-info">
+            <span class="project-index micro">02</span>
+            <h3 class="project-name sign-name">SignSpeak ASL</h3>
+            <p class="project-tagline">Turning gestures into understanding.</p>
+            <p class="project-summary">
+              On-device recognition with hand landmarks and joint-angle
+              kinematics.
+            </p>
+            <p class="stack">JavaScript · MediaPipe · WebAssembly</p>
+            <button class="text-link" data-project="sign">
+              Explore project <img src="assets/icons/arrow-right.svg" alt="" />
+            </button>
+          </div>
+          <div class="project-story">
+            <button
+              class="project-image"
+              data-project="sign"
+              aria-label="Explore SignSpeak ASL project"
+            >
+              <img
+                src="assets/signspeak-vision.png"
+                alt="Conceptual hand visualization with red joint landmarks and connections"
+                width="1774"
+                height="887"
+                loading="lazy"
+              /><span class="image-caption micro"
+                >GESTURES / LANDMARKS / MEANING</span
+              ><span class="image-open"
+                ><img src="assets/icons/arrow-up-right.svg" alt=""
+              /></span>
+            </button>
+            <div class="project-notes">
+              <div>
+                <h4>The problem</h4>
+                <p>
+                  Similar hand shapes and moving gestures make real-time ASL
+                  recognition challenging.
+                </p>
+              </div>
+              <div>
+                <h4>The approach</h4>
+                <p>
+                  Hand landmarks, joint angles, temporal smoothing, and motion
+                  tracking in the browser.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="more-work reveal">
+          <p class="micro">ALSO IN MY ORBIT</p>
+          <details class="project-row">
+            <summary>
+              <span class="micro">03</span>
+              <h3>Vigilance</h3>
+              <span class="row-category">Edge AI / Urban intelligence</span
+              ><img class="plus-icon" src="assets/icons/plus.svg" alt="" />
+            </summary>
+            <div class="row-content">
+              <p>
+                Urban road intelligence from transit fleet cameras. Quantized
+                YOLOv8 detects road distress, spatial clustering consolidates
+                repeated sightings, and a WebGIS interface helps organize
+                incidents and repair priorities.
+              </p>
+              <div>
+                <p class="stack">Python · YOLOv8 · ONNX · FastAPI · Next.js</p>
+                <a
+                  class="text-link"
+                  href="https://github.com/parthjaina2107/Vigilance-SIH2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View on GitHub
+                  <img src="assets/icons/arrow-up-right.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </details>
+          <details class="project-row">
+            <summary>
+              <span class="micro">04</span>
+              <h3>FlowPilot</h3>
+              <span class="row-category">Android / Voice automation</span
+              ><img class="plus-icon" src="assets/icons/plus.svg" alt="" />
+            </summary>
+            <div class="row-content">
+              <p>
+                Learn once, replay anywhere. Voice automation for Android, built
+                for the Samsung PRISM GenAI Hackathon 3.0. An exploration of how
+                repeatable mobile workflows can begin with a spoken instruction.
+              </p>
+              <div>
+                <p class="stack">
+                  Kotlin · Python · Android · Voice automation
+                </p>
+                <a
+                  class="text-link"
+                  href="https://github.com/parthjaina2107/FlowPilot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View on GitHub
+                  <img src="assets/icons/arrow-up-right.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </section>
+      <section
+        class="toolkit section-rule"
+        id="toolkit"
+        aria-labelledby="toolkit-title"
+      >
+        <p class="section-label"><span></span> 03 / HOW I BUILD</p>
+        <div class="toolkit-layout">
+          <div class="toolkit-intro reveal">
+            <h2 id="toolkit-title" class="statement">
+              From the model<br />to the <em>interface.</em>
+            </h2>
+            <p>
+              I like connecting the pieces. My toolkit spans the intelligence
+              behind a system and the experience people use to interact with it.
+            </p>
+          </div>
+          <div class="skill-list reveal">
+            <details open>
+              <summary>
+                <span>AI & computer vision</span
+                ><img class="plus-icon" src="assets/icons/plus.svg" alt="" />
+              </summary>
+              <p>
+                PyTorch · OpenCV · MediaPipe · YOLOv8 · Scikit-learn · Gemini
+                API
+              </p>
+              <small
+                >Exploring models, visual signals, and on-device
+                processing.</small
+              >
+            </details>
+            <details>
+              <summary>
+                <span>Backend & web</span
+                ><img class="plus-icon" src="assets/icons/plus.svg" alt="" />
+              </summary>
+              <p>FastAPI · Next.js · REST APIs · WebSockets</p>
+              <small
+                >Connecting intelligent systems to responsive interfaces.</small
+              >
+            </details>
+            <details>
+              <summary>
+                <span>Languages & foundations</span
+                ><img class="plus-icon" src="assets/icons/plus.svg" alt="" />
+              </summary>
+              <p>Python · C++ · C · Java · JavaScript · SQL</p>
+              <small
+                >Practicing DSA and strengthening my AI/ML foundations.</small
+              >
+            </details>
+            <details>
+              <summary>
+                <span>Tools & workflow</span
+                ><img class="plus-icon" src="assets/icons/plus.svg" alt="" />
+              </summary>
+              <p>Git · GitHub · Linux · Docker · VS Code</p>
+              <small
+                >Building, testing, refining, and learning along the way.</small
+              >
+            </details>
+          </div>
+        </div>
+      </section>
+      <section
+        class="contact section-rule"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <p class="section-label"><span></span> 04 / WHAT’S NEXT</p>
+        <div class="contact-layout">
+          <h2 id="contact-title" class="statement reveal">
+            Real problems.<br />New perspectives.<br /><em>Let’s talk.</em>
+          </h2>
+          <div class="contact-copy reveal">
+            <p class="contact-lead">Looking for a curious mind on your team?</p>
+            <p>
+              I’m looking for internship opportunities and hands-on exposure to
+              real-world problems—a place to contribute, learn from experienced
+              people, and grow as a builder.
+            </p>
+            <p>
+              If you have an opportunity, an interesting problem, or an idea
+              worth exploring, I’d love to hear about it.
+            </p>
+            <a class="button-primary" href="mailto:parthjaina.2107@gmail.com"
+              >Start a conversation
+              <img src="assets/icons/arrow-up-right.svg" alt=""
+            /></a>
+            <div class="email-row">
+              <a href="mailto:parthjaina.2107@gmail.com"
+                >parthjaina.2107@gmail.com</a
+              ><button id="copy-email" aria-label="Copy email address">
+                <img src="assets/icons/copy.svg" alt="" />
+              </button>
+            </div>
+            <span class="copy-status" role="status" id="copy-status"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="shell">
+      <a class="footer-signature" href="#home"
+        >Parth<span class="red">.</span></a
+      >
+      <p>Always learning. Always building.</p>
+      <div>
+        <a
+          href="https://github.com/parthjaina2107"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub <img src="assets/icons/arrow-up-right.svg" alt="" /></a
+        ><a
+          href="https://www.linkedin.com/in/parthjaina/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn <img src="assets/icons/arrow-up-right.svg" alt="" /></a
+        ><span>© <span id="year">2026</span></span>
+      </div>
+    </footer>
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" aria-label="Close project details">
+        <img src="assets/icons/x.svg" alt="" />
+      </button>
+      <p class="section-label" id="dialog-category"></p>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-intro" id="dialog-intro"></p>
+      <div id="dialog-content"></div>
+      <a
+        id="dialog-link"
+        class="button-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Explore the source <img src="assets/icons/arrow-up-right.svg" alt=""
+      /></a>
+    </dialog>
+  </body>
+</html>

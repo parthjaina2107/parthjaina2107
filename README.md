@@ -22,6 +22,20 @@ I learn best by experimenting, asking questions, and refining what I build.
 
 <br clear="both" />
 
+### Portfolio · Ideas into useful systems
+
+My interactive portfolio brings together my projects, how I build, and the person behind the code—featuring a mouse-responsive 3D sculpture and project stories.
+
+<a href="portfolio/">
+  <img src="assets/portfolio-preview.png" width="100%" alt="Parth's portfolio: bold editorial typography, a polished chrome sculpture, and an introduction to his AI/ML work" />
+</a>
+
+**[Explore the portfolio →](portfolio/)** · [Run it locally](portfolio/#run-locally)
+
+<sub>B.Tech · Artificial Intelligence · SRM Institute of Science and Technology · 2025–2029<br>Open to internships and opportunities to work on real-world problems.</sub>
+
+<br />
+
 <img src="assets/spectrum.svg" width="100%" height="4" alt="" />
 
 ### In my orbit

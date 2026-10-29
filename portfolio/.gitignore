@@ -1,0 +1,5 @@
+node_modules/
+*.log
+.openai/
+design/
+design-qa.md

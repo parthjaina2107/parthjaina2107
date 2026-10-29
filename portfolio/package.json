@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Parth's interactive AI/ML portfolio — editorial design, project stories, and mouse-responsive 3D.",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check dist/portfolio.js && node --check dist/sculpture.js && node --check dist/component-motion.js && node --check scripts/serve.mjs"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "@phosphor-icons/core": "^2.1.1",
+    "three": "^0.186.1"
+  }
+}
