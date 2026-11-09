@@ -1,22 +1,68 @@
-/* A restrained motion layer over the approved editorial composition. */
-.hero-name.has-letter-motion {
-  animation: none;
+.print-word {
+  position: relative;
   white-space: nowrap;
-  display: flex;
-  letter-spacing: 0;
-  gap: 0;
+}
+.hero-name.print-word {
+  width: 80%;
   font-size: clamp(150px, 32vw, 460px);
+  transform: none;
 }
-.letter-mask {
-  display: inline-block;
+.print-word canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.print-word.is-printed {
+  color: transparent;
+}
+.ripple-control {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 55px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 0 12px 12px;
+  font-size: 10px;
+  letter-spacing: .12em;
+}
+.ripple-control[hidden] { display: none; }
+.ripple-control:hover { color: var(--red); }
+.ripple-icon {
+  display: grid;
+  width: 17px;
+  height: 17px;
+  place-items: center;
+  color: var(--red);
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+.ripple-icon::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+.signature-crop {
   overflow: hidden;
-  line-height: 1.08;
-  margin-right: -0.045em;
+  height: min(28vw, 465px);
+  border-top: 1px solid #393936;
+  padding-top: min(3vw, 40px);
 }
-.letter-mask > span {
-  display: block;
-  animation: letter-rise 1.15s cubic-bezier(0.2, 0.8, 0.15, 1) both;
-  animation-delay: calc(var(--letter) * 75ms);
+.footer-print {
+  width: 96%;
+  max-width: 1550px;
+  margin-inline: auto;
+  font: 400 min(36vw, 582px)/.96 var(--display);
+  letter-spacing: -.035em;
+}
+@media (forced-colors: active), print {
+  .print-word.is-printed { color: inherit; }
+  .print-word canvas, .ripple-control { display: none; }
 }
 .word-mask {
   display: inline-block;
@@ -118,14 +164,6 @@
 .skip-link:focus {
   clip-path: none;
 }
-@keyframes letter-rise {
-  from {
-    transform: translateY(105%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
 @keyframes intro-enter {
   from {
     opacity: 0;
@@ -146,7 +184,6 @@
     scale: 1;
   }
 }
-.motion-paused .letter-mask > span,
 .motion-paused .word-mask > span {
   animation: none !important;
   transform: none !important;
@@ -162,8 +199,16 @@
   transform: none !important;
 }
 @media (max-width: 760px) {
-  .hero-name.has-letter-motion {
+  .hero-name.print-word {
+    width: 100%;
     font-size: 36.5vw;
+  }
+  .ripple-control {
+    left: 0;
+    right: auto;
+    top: calc(39vw + 10px);
+    padding: 10px 0;
+    font-size: 9px;
   }
   .project-jump {
     gap: 20px;
@@ -195,7 +240,6 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .letter-mask > span,
   .word-mask > span {
     animation: none !important;
     transform: none !important;
@@ -214,6 +258,26 @@
   .project-hover-preview {
     display: none;
   }
+}
+/* A brief pass of print dots brings each project illustration into view. */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-ready body:not(.motion-paused) .project-feature.is-visible .project-image::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0;
+    background-image: radial-gradient(circle, #dbd9cd 1px, transparent 1.5px);
+    background-size: 6px 6px;
+    mask-image: linear-gradient(105deg, transparent 35%, #000 50%, transparent 65%);
+    mask-size: 300% 100%;
+    opacity: 0;
+    animation: print-pass 1.1s ease-out .12s;
+  }
+}
+@keyframes print-pass {
+  0% { mask-position: 100% 0; opacity: 0; }
+  30% { opacity: .38; }
+  100% { mask-position: 0 0; opacity: 0; }
 }
 @media (hover: none), (pointer: coarse) {
   .project-hover-preview {

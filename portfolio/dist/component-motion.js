@@ -1,26 +1,10 @@
 // Independently authored, progressive enhancements inspired by OriginKit's
-// Scroll Text Reveal, Masthead Reveal, and Hover Image Reveal patterns.
+// Scroll Text Reveal and Hover Image Reveal patterns.
 (() => {
   const reduced = matchMedia("(prefers-reduced-motion: reduce)");
   const fine = matchMedia("(hover: hover) and (pointer: fine)");
   const motionAllowed = () =>
     !reduced.matches && !document.body.classList.contains("motion-paused");
-  const name = document.querySelector(".hero-name");
-  name.setAttribute("aria-label", name.textContent);
-  const fragment = document.createDocumentFragment();
-  [...name.textContent].forEach((letter, i) => {
-    const mask = document.createElement("span");
-    mask.className = "letter-mask";
-    mask.setAttribute("aria-hidden", "true");
-    const inner = document.createElement("span");
-    inner.textContent = letter;
-    inner.style.setProperty("--letter", i);
-    mask.append(inner);
-    fragment.append(mask);
-  });
-  name.replaceChildren(fragment);
-  name.classList.add("has-letter-motion");
-
   // Split only visible copy; retain semantic emphasis, natural wrapping, and a
   // single accessible heading instead of exposing each animated word to AT.
   document.querySelectorAll(".statement").forEach((heading) => {

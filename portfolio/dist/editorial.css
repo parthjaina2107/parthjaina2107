@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Anton";
+  src: url("assets/fonts/anton-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("assets/fonts/dm-sans-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --paper: #f5f4ef;
   --ink: #171716;
@@ -174,18 +188,6 @@ nav a:hover:after {
   width: max-content;
   max-width: 100%;
   font-weight: 400;
-  animation: name-in 1s var(--ease) both;
-}
-.hero-margin-note {
-  position: absolute;
-  right: 6%;
-  top: 70px;
-  width: 130px;
-  color: #81807b;
-  font-size: 10px;
-  letter-spacing: 3px;
-  border-top: 1px solid var(--muted);
-  padding-top: 18px;
 }
 .sculpture-stage {
   position: absolute;
@@ -721,41 +723,45 @@ details[open] > summary .plus-icon {
   min-height: 22px;
   margin-top: 4px;
 }
-footer {
+.print-footer {
+  background: var(--ink);
+  color: var(--paper);
+}
+.footer-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-  padding: 28px 0 35px;
-  border-top: 1px solid var(--line);
+  padding-block: 30px;
+  font-size: 13px;
 }
-.footer-signature {
-  font-size: 26px;
-  font-weight: 650;
-  letter-spacing: -1.2px;
+.footer-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
-footer > p {
-  color: var(--muted);
-  font-size: 12px;
+.back-to-top span {
+  display: inline-block;
+  margin-left: 6px;
+  color: #ff725c;
 }
-footer > div {
+.social-links {
   display: flex;
   gap: 25px;
   align-items: center;
-  font-size: 12px;
 }
-footer > div > a {
+.social-links a {
   display: flex;
   align-items: center;
   gap: 4px;
 }
-footer img {
+.social-links img {
   width: 13px;
   height: 13px;
+  filter: invert(1);
 }
-footer > div > span {
-  color: var(--muted);
-  font-size: 11px;
+.social-links > span {
+  color: #b2b0aa;
+  font-size: 12px;
 }
 dialog {
   color: var(--ink);
@@ -829,16 +835,6 @@ dialog .button-primary {
   opacity: 1 !important;
   transform: none !important;
 }
-@keyframes name-in {
-  from {
-    opacity: 0;
-    translate: 0 25px;
-  }
-  to {
-    opacity: 1;
-    translate: 0 0;
-  }
-}
 @keyframes dialog-in {
   from {
     opacity: 0;
@@ -855,9 +851,6 @@ dialog .button-primary {
   }
   .hero {
     padding-top: 25px;
-  }
-  .hero-margin-note {
-    top: 85px;
   }
 }
 @media (max-width: 1100px) {
@@ -877,12 +870,6 @@ dialog .button-primary {
   .hero-intro {
     width: 66%;
     margin-top: 24px;
-  }
-  .hero-margin-note {
-    right: 2%;
-    font-size: 8px;
-    top: 50px;
-    width: 105px;
   }
   .hero-base {
     margin-top: 25px;
@@ -999,9 +986,6 @@ dialog .button-primary {
     position: relative;
     z-index: 0;
   }
-  .hero-margin-note {
-    display: none;
-  }
   .sculpture-stage {
     top: 19vw;
     right: -4vw;
@@ -1025,9 +1009,6 @@ dialog .button-primary {
     line-height: 1.65;
     max-width: 420px;
     margin-top: 20px;
-  }
-  .wide-only {
-    display: none;
   }
   .hero-actions {
     gap: 24px;
@@ -1267,21 +1248,14 @@ dialog .button-primary {
   .email-row > a {
     font-size: 12px;
   }
-  footer {
+  .footer-links {
     flex-wrap: wrap;
-    gap: 18px;
-    padding: 22px 0 28px;
-  }
-  footer > p {
-    font-size: 11px;
-  }
-  footer > div {
-    width: 100%;
+    gap: 12px;
+    padding-block: 22px;
     font-size: 12px;
-    gap: 22px;
   }
-  footer > div > span {
-    margin-left: auto;
+  .social-links {
+    gap: 12px;
   }
   dialog {
     padding: 45px 24px 30px;

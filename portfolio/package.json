@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "check": "node --check dist/portfolio.js && node --check dist/sculpture.js && node --check dist/component-motion.js && node --check scripts/serve.mjs"
+    "check": "node --check dist/portfolio.js && node --check dist/sculpture.js && node --check dist/component-motion.js && node --check dist/wordmark.js && node --check scripts/serve.mjs"
   },
   "keywords": [],
   "type": "module",

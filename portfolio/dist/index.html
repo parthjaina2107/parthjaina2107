@@ -8,30 +8,26 @@
       name="description"
       content="Parth — B.Tech Artificial Intelligence student at SRM Institute of Science and Technology. Exploring voice, computer vision, and full-stack software. Open to internships."
     />
-    <title>Parth — Curiosity into useful systems</title>
+    <title>Parth Jain — AI &amp; ML Portfolio</title>
     <link rel="icon" href="data:," />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;450;500;550;600;650;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="editorial.css?v=5" />
-    <link rel="stylesheet" href="component-motion.css?v=5" />
+    <link rel="preload" href="assets/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="editorial.css?v=6" />
+    <link rel="stylesheet" href="component-motion.css?v=6" />
     <script type="importmap">
       { "imports": { "three": "./vendor/three.module.js" } }
     </script>
     <script src="portfolio.js?v=5" defer></script>
-    <script src="component-motion.js?v=5" defer></script>
+    <script src="component-motion.js?v=6" defer></script>
+    <script src="wordmark.js?v=1" defer></script>
     <script type="module" src="sculpture.js"></script>
   </head>
-  <body>
+  <body id="top">
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="reading-progress" aria-hidden="true"></div>
     <header class="site-header shell">
       <a href="#home" class="wordmark" aria-label="Parth home"
         >Parth<span class="red">.</span>
-        <span class="wordmark-note">A work in progress.</span></a
+        <span class="wordmark-note">B.Tech AI · 2025–29</span></a
       ><button
         class="menu-toggle"
         aria-expanded="false"
@@ -47,11 +43,11 @@
     </header>
     <main id="main" class="shell">
       <section class="hero" id="home" aria-labelledby="hero-title">
-        <h1 id="hero-title" class="hero-name">PARTH</h1>
-        <p class="hero-margin-note micro">
-          Ideas.<br />Models.<br />Interfaces.<br />For a more<br />useful
-          tomorrow.
-        </p>
+        <h1 id="hero-title" class="hero-name print-word" data-wordmark>PARTH</h1>
+        <button type="button" class="ripple-control micro" aria-controls="hero-title"
+          aria-label="Send a ripple through PARTH" hidden>
+          <span class="ripple-icon" aria-hidden="true"></span>Ripple type
+        </button>
         <div
           class="sculpture-stage"
           id="sculpture-stage"
@@ -71,10 +67,9 @@
         <div class="hero-intro">
           <h2>AI / ML student.<br />Builder of <em>useful systems.</em></h2>
           <p>
-            I build across voice, computer vision, and the web—<br
-              class="wide-only"
-            />connecting models, APIs, and interfaces to solve everyday
-            problems.
+            I study AI at SRM and build tools for voice and computer vision.
+            I’m looking for an internship where I can work on a real problem
+            with a team.
           </p>
           <div class="hero-actions">
             <a href="#work" class="button-primary"
@@ -414,23 +409,21 @@
         </div>
       </section>
     </main>
-    <footer class="shell">
-      <a class="footer-signature" href="#home"
-        >Parth<span class="red">.</span></a
-      >
-      <p>Always learning. Always building.</p>
-      <div>
-        <a
-          href="https://github.com/parthjaina2107"
-          target="_blank"
-          rel="noopener noreferrer"
-          >GitHub <img src="assets/icons/arrow-up-right.svg" alt="" /></a
-        ><a
-          href="https://www.linkedin.com/in/parthjaina/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >LinkedIn <img src="assets/icons/arrow-up-right.svg" alt="" /></a
-        ><span>© <span id="year">2026</span></span>
+    <footer class="print-footer">
+      <div class="footer-links shell">
+        <a href="#top" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+        <div class="social-links">
+          <a href="https://github.com/parthjaina2107" target="_blank" rel="noopener noreferrer">
+            GitHub <img src="assets/icons/arrow-up-right.svg" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/parthjaina/" target="_blank" rel="noopener noreferrer">
+            LinkedIn <img src="assets/icons/arrow-up-right.svg" alt="" />
+          </a>
+          <span>© <span id="year">2026</span></span>
+        </div>
+      </div>
+      <div class="signature-crop" aria-hidden="true">
+        <div class="print-word footer-print" data-wordmark>PARTH</div>
       </div>
     </footer>
     <dialog id="project-dialog" aria-labelledby="dialog-title">

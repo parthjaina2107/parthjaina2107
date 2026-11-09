@@ -24,10 +24,10 @@ I learn best by experimenting, asking questions, and refining what I build.
 
 ### Portfolio · Ideas into useful systems
 
-My interactive portfolio brings together my projects, how I build, and the person behind the code—featuring a mouse-responsive 3D sculpture and project stories.
+Move your pointer through my name to scatter the ink, then explore ZENO and SignSpeak ASL to see what I’m building with voice and computer vision.
 
 <a href="portfolio/">
-  <img src="assets/portfolio-preview.png" width="100%" alt="Parth's portfolio: bold editorial typography, a polished chrome sculpture, and an introduction to his AI/ML work" />
+  <img src="assets/portfolio-preview.png" width="100%" alt="Parth’s name in halftone dots beside a polished chrome knot on the portfolio homepage" />
 </a>
 
 **[Explore the portfolio →](portfolio/)** · [Run it locally](portfolio/#run-locally)
