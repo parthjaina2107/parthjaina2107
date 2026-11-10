@@ -22,17 +22,11 @@ I learn best by experimenting, asking questions, and refining what I build.
 
 <br clear="both" />
 
-### Portfolio · Ideas into useful systems
+## Portfolio
 
-Move your pointer through my name to scatter the ink, then explore ZENO and SignSpeak ASL to see what I’m building with voice and computer vision.
+See how I’m exploring voice assistants with ZENO and on-device gesture recognition with SignSpeak ASL.
 
-<a href="portfolio/">
-  <img src="assets/portfolio-preview.png" width="100%" alt="Parth’s name in halftone dots beside a polished chrome knot on the portfolio homepage" />
-</a>
-
-**[Explore the portfolio →](portfolio/)** · [Run it locally](portfolio/#run-locally)
-
-<sub>B.Tech · Artificial Intelligence · SRM Institute of Science and Technology · 2025–2029<br>Open to internships and opportunities to work on real-world problems.</sub>
+**[Visit my live portfolio →](https://parth-jain-selected-work.ritusarawgi.chatgpt.site)**
 
 <br />
 
