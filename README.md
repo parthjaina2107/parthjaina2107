@@ -4,7 +4,7 @@
 
 ## Portfolio
 
-**[Visit my live portfolio →](https://parthjaina.vercel.app/)**
+**[Visit my portfolio →](https://parthjaina.vercel.app/)**
 
 Explore ZENO, my voice assistant, and SignSpeak ASL, my browser-based gesture recognition project.
 
