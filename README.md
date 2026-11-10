@@ -2,6 +2,12 @@
   <img src="assets/holographic-banner.png" width="100%" alt="Prismatic light shimmering across dark, glassy liquid ripples" />
 </p>
 
+## Portfolio
+
+**[Visit my live portfolio →](https://parth-jain-selected-work.ritusarawgi.chatgpt.site)**
+
+Explore ZENO, my voice assistant, and SignSpeak ASL, my browser-based gesture recognition project.
+
 <p align="center">
   <a href="https://www.linkedin.com/in/parthjaina/"><img src="assets/linkedin.svg" alt="LinkedIn" height="30" /></a>
   <a href="mailto:parthjaina.2107@gmail.com"><img src="assets/email.svg" alt="Email Parth" height="30" /></a>
@@ -21,14 +27,6 @@ I build across the stack — from models and backend APIs to web interfaces and 
 I learn best by experimenting, asking questions, and refining what I build.
 
 <br clear="both" />
-
-## Portfolio
-
-See how I’m exploring voice assistants with ZENO and on-device gesture recognition with SignSpeak ASL.
-
-**[Visit my live portfolio →](https://parth-jain-selected-work.ritusarawgi.chatgpt.site)**
-
-<br />
 
 <img src="assets/spectrum.svg" width="100%" height="4" alt="" />
 
