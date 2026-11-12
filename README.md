@@ -37,9 +37,9 @@ I learn best by experimenting, asking questions, and refining what I build.
 <td width="50%" valign="top">
 
 #### 🎙️ [ZENO](https://github.com/parthjaina2107/ZENO)
-Context-aware voice and work assistant with proactive briefings, local speech recognition, and secure mobile control.
+A Windows assistant for voice and typed commands. Its Dynamic Island shows live playback and task activity, and its dashboard lets you choose which apps and tools it can use.
 
-<sub>Python · Gemini API · FastAPI · faster-whisper</sub>
+<sub>Python · PySide6 · faster-whisper · Ollama · FastAPI</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -85,7 +85,11 @@ Learn-once, replay-anywhere voice automation for Android, built for the Samsung 
 
 #### ZENO — voice, context, and everyday work
 
-Gemini-powered conversation and a bounded observe–act–verify loop for supported system and file tasks. Work and system briefings bring together notifications, Git changes, reminders, and system health. Local speech recognition, paired devices, and action approvals support desktop and mobile use. Optional inbox connections provide read-only previews.
+Ask ZENO to “organize my desktop” and it shows which files it would move, where they would go, and why. It can group screenshots and file older documents, including invoices and receipts, after you approve the plan. You can also open apps, control media, ask about the screen, or review proposed edits in a coding workspace.
+
+ZENO supports local speech recognition and Ollama reasoning, with optional Gemini and online voices. Connect Gmail to search, summarize, draft, and approve messages for sending, or Outlook for read-only inbox previews. On-demand briefings cover notifications, reminders, Git changes, and system health. A paired browser can control playback or request broader actions with approval on the PC.
+
+[Windows installer and setup guide](https://github.com/parthjaina2107/ZENO/blob/main/docs/setup.md)
 
 #### SignSpeak ASL — vision in the browser
 
