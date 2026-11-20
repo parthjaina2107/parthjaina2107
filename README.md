@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/parthjaina/"><img src="assets/linkedin.svg" alt="LinkedIn" height="30" /></a>
   <a href="mailto:parthjaina.2107@gmail.com"><img src="assets/email.svg" alt="Email Parth" height="30" /></a>
   <a href="https://github.com/parthjaina2107?tab=repositories"><img src="assets/projects.svg" alt="Explore my repositories" height="30" /></a>
-  <a href="https://parthjaina.vercel.app/" title="My portfolio"><img src="assets/portfolio-badge.svg" alt="Portfolio" height="30" /></a>
+  <a href="https://parthjaina.vercel.app/" title="My portfolio"><img src="assets/portfolio-link.svg" alt="Portfolio" height="30" /></a>
 </p>
 
 ## I automate things to save five minutes. It only takes a weekend.
