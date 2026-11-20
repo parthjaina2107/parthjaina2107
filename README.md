@@ -2,16 +2,11 @@
   <img src="assets/holographic-banner.png" width="100%" alt="Prismatic light shimmering across dark, glassy liquid ripples" />
 </p>
 
-## Portfolio
-
-**[Visit my portfolio →](https://parthjaina.vercel.app/)**
-
-Explore ZENO, my voice assistant, and SignSpeak ASL, my browser-based gesture recognition project.
-
 <p align="center">
   <a href="https://www.linkedin.com/in/parthjaina/"><img src="assets/linkedin.svg" alt="LinkedIn" height="30" /></a>
   <a href="mailto:parthjaina.2107@gmail.com"><img src="assets/email.svg" alt="Email Parth" height="30" /></a>
   <a href="https://github.com/parthjaina2107?tab=repositories"><img src="assets/projects.svg" alt="Explore my repositories" height="30" /></a>
+  <a href="https://parthjaina.vercel.app/" title="My portfolio"><img src="assets/portfolio.svg" alt="My portfolio — It compiled. Look." height="30" /></a>
 </p>
 
 ## Hey, I'm Parth 
