@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/holographic-banner.png" />
-    <img src="assets/holographic-shimmer.webp" width="100%" alt="Prismatic light sweeping across dark glass ripples" />
-  </picture>
+  <img src="assets/holographic-banner.png" width="100%" alt="Prismatic light shimmering across dark, glassy liquid ripples" />
 </p>
 
 <p align="center">
