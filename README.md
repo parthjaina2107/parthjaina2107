@@ -9,7 +9,7 @@
   <a href="https://parthjaina.vercel.app/" title="My portfolio"><img src="assets/portfolio.svg" alt="Portfolio" height="30" /></a>
 </p>
 
-## I’m Parth. I automate things to save five minutes. It only takes a weekend.
+## I automate things to save five minutes. It only takes a weekend.
 
 <img align="right" src="assets/holographic-orbit.svg" width="22%" alt="Delicate holographic light ripples with cyan, violet and rainbow glints" />
 
